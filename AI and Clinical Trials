@@ -1,25 +1,56 @@
 https://ai.nejm.org/doi/full/10.1056/AIoa2400181
 
+Large language model–based solutions such as RECTIFIER can significantly enhance clinical trial screening performance and reduce costs by automating the screening process. 
+However, integrating such technolo- gies requires careful consideration of potential hazards and should include safeguards such as final clinician review
+
+Moreover, the cost of RECTIFIER was only 11 cents per patient. 
+For comparison, the cost per screened patient for a phase 3 trial was reported to be approxi- mately $34.75 using traditional screening methods
+
+Methods
+3. RECTIFIER's RAG Implementation (Step-by-Step):
+Data Load & Splitting:
+
+RECTIFIER retrieves clinical notes for a patient.
+These notes are divided into smaller chunks, ensuring each chunk is within GPT-4's context window while preserving contextual flow.
+
+Vector Embeddings:
+Each chunk of text is converted into a numerical representation called a vector embedding.
+These vectors capture the meaning of the text in a way that allows for efficient similarity searches.
+The 'ada-002' model from Azure OpenAI is used for this step.
+
+Similarity Search (Retrieval):
+The question being asked about the patient is also converted into a vector embedding.
+The FAISS library is used to find the top 3 chunks of text that are most similar (semantically) to the question.
+
+Prompting and Generation:
+The retrieved chunks, along with the question and a system prompt, are fed into GPT-4.
+GPT-4 processes this information and generates a "Yes" or "No" answer.
 
 
 
+************************************************************************
 From Gemini:
-Thanks for providing the text! Based on your excerpt, this paper seems to be about using GPT-4, a powerful language model, in a system called RECTIFIER to automate the screening process for clinical trials. Here's a breakdown:
+GPT-4, a powerful language model, in a system called RECTIFIER to automate the screening process for clinical trials
+
 The Problem:
 Screening patients for clinical trials is a time-consuming and error-prone process.
 It requires manual chart review, which is expensive and can lead to delays in trial enrollment.
+
 The Solution:
 RECTIFIER: A system that uses GPT-4 and a Retrieval-Augmented Generation (RAG) approach to automatically extract information from electronic health records (EHRs).
 RAG: RECTIFIER uses RAG to break down large clinical notes into smaller chunks, making them easier for GPT-4 to process.
 GPT-4: The paper highlights GPT-4's ability to understand complex medical information and answer questions about patient eligibility criteria.
 Key Findings:
+
 High accuracy: RECTIFIER performed well, achieving an accuracy of 97.9% in determining patient eligibility for a heart failure trial.
 Efficiency: The system was significantly faster than traditional methods and reduced costs by 11 cents per patient.
 Cost-effectiveness: RECTIFIER was more cost-effective than using GPT-4 without the RAG architecture.
+
 Potential Benefits:
 Accelerated trial enrollment: Faster screening could lead to quicker patient recruitment and shorter trial durations.
 Improved accuracy: Automation could minimize human error in the screening process.
 Reduced costs: Automating screening could save money by reducing the need for manual review.
+
 Important Considerations:
 Potential hazards: The paper acknowledges the need for safeguards and emphasizes the importance of having a final clinician review of automated screening results.
 Generalizability: The study was conducted on a heart failure trial, and further research is needed to determine if the results are generalizable to other clinical trials and conditions.
