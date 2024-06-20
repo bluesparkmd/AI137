@@ -1,0 +1,74 @@
+Use ollama on a rpi5, 8GB
+mistral 7b 05/22/2024	A new version of Mistral 7B that supports function calling
+mistal 7.2B parameters = 4.1 GB on rpi5. quantization level 4.0, family llama
+run locall on rpi5
+
+ollama run mistral
+>>> I have low back pain, what should I do
+ I'm not a doctor, but I can provide some general suggestions about managing low back pain. 
+Here are some tips that might help you:
+
+1. Rest and Relaxation: Allow your body to rest for short periods. Avoid activities that 
+may worsen the pain or cause additional strain on the lower back muscles.
+
+2. Cold and Heat Therapy: Apply ice packs or heating pads to the affected area for 15-20 
+minutes at a time, several times a day. This can help reduce inflammation and provide 
+temporary pain relief.
+
+3. Pain Relievers: Over-the-counter nonsteroidal anti-inflammatory drugs (NSAIDs) like 
+ibuprofen or naproxen may help reduce back pain and inflammation. Always consult your 
+doctor before taking any medication for back pain.
+
+4. Exercise and Stretching: Gentle exercise, such as walking, yoga, or swimming can help 
+strengthen your back muscles and improve flexibility. Low-impact aerobic activities are 
+best when dealing with lower back pain. Be sure to avoid movements that worsen the pain.
+
+5. Maintain Good Posture: Maintaining good posture throughout the day can help prevent 
+further strain on the lower back muscles. When sitting, use a chair with good lumbar 
+support and make sure your feet are flat on the floor.
+
+6. Mind-body practices: Techniques such as deep breathing exercises, meditation, or tai chi 
+may help reduce stress and anxiety, which can contribute to back pain.
+
+If your lower back pain persists for more than a week, worsens, or is accompanied by other 
+symptoms like numbness, weakness, fever, or unexplained weight loss, you should consult a 
+healthcare professional immediately.
+
+second run using verbose
+ollama run mistral --verbose
+>>> I have low back pain, what should I do
+ I'm not a doctor, but here are some general suggestions for managing low back pain. If your symptoms persist or worsen, please consult a healthcare professional:
+
+1. Rest and relaxation: Try to get plenty of rest, especially if the pain is severe. Avoid strenuous activities that could aggravate your condition.
+
+2. Heat and cold therapy: Apply heat (such as a heating pad or warm bath) or cold (ice packs) to the affected area for 15-20 minutes at a time, several times a day, to help relieve pain and reduce 
+inflammation.
+
+3. Pain medication: Over-the-counter pain relievers like ibuprofen or acetaminophen may provide temporary relief. Be sure to follow the recommended dosage instructions on the label.
+
+4. Exercise: Low-impact exercises, such as walking, swimming, or yoga, can help strengthen your back muscles and improve flexibility, which may reduce pain over time. Consult a healthcare professional 
+for appropriate exercises.
+
+5. Maintain good posture: Try to keep your spine in alignment by practicing good posture throughout the day. Avoid slouching or bending for extended periods.
+
+6. Stretching: Gently stretch your back muscles regularly to help improve flexibility and reduce tension.
+
+7. Supportive clothing: Wear supportive shoes with good arch support, and consider using a lumbar support cushion when sitting for long periods.
+
+8. Ergonomic setup: Adjust your workspace to maintain proper posture while working or studying. Place your computer monitor at eye level, use an ergonomic chair, and take frequent breaks to stand and 
+stretch.
+
+9. Manage stress: Stress can contribute to back pain. Practice relaxation techniques like deep breathing, meditation, or progressive muscle relaxation to help manage stress levels.
+
+10. Weight management: Maintaining a healthy weight reduces the strain on your back and spine. Eating a balanced diet and engaging in regular exercise can help with weight management.
+
+total duration:       3m44.436277813s
+load duration:        2.761159ms
+prompt eval count:    12 token(s)
+prompt eval duration: 5.037186s
+prompt eval rate:     2.38 tokens/s
+eval count:           438 token(s)
+eval duration:        3m39.262687s
+eval rate:            2.00 tokens/s
+
+9 words in the prompt, coverted to 12 tokens. Took totl 3min and 44 seconds. Output 438 tokens. 
