@@ -71,4 +71,37 @@ eval count:           438 token(s)
 eval duration:        3m39.262687s
 eval rate:            2.00 tokens/s
 
-9 words in the prompt, coverted to 12 tokens. Took totl 3min and 44 seconds. Output 438 tokens. 
+9 words in the prompt, coverted to 12 tokens. Took totl 3 min and 44 seconds. Output 438 tokens. 
+Unclear why differnt response this time. 
+
+>>> I have low back pain, what should I do
+ I'm not a doctor, but I can give you some suggestions on how to manage low back pain. Here are some steps you can take:
+
+1. Rest: Take a break from any activities that aggravate your back pain. Avoid bending, twisting, or lifting heavy objects for a few days.
+
+2. Apply heat and cold: Alternating between heat (such as a heating pad) and cold (like an ice pack) can help reduce inflammation and ease discomfort.
+
+3. Exercise: Low-impact exercises like walking, swimming, or yoga can help strengthen your back muscles, improve flexibility, and alleviate pain.
+
+4. Pain relief medication: Over-the-counter pain relievers like ibuprofen or acetaminophen may provide temporary relief. If your pain persists, consult a doctor about other options.
+
+5. Good posture: Maintain good posture when sitting, standing, and sleeping to reduce stress on your back. Use ergonomic chairs and supportive pillows for better spinal alignment.
+
+6. Stretching: Perform gentle stretches throughout the day to loosen tight muscles in your back and improve mobility.
+
+7. Massage: A professional massage or self-massage can help relax tense muscles, reduce inflammation, and promote healing.
+
+8. Consult a doctor: If your pain persists for more than a few days or is severe, it's essential to seek medical attention from a healthcare provider. They may recommend physical therapy, injections, 
+or other treatments to manage your back pain effectively.
+
+total duration:       2m58.831891775s
+load duration:        1.676025743s
+prompt eval count:    14 token(s)
+prompt eval duration: 5.789779s
+prompt eval rate:     2.42 tokens/s
+eval count:           343 token(s)
+eval duration:        2m51.236312s
+eval rate:            2.00 tokens/s
+
+Another run after clear context
+prompt 14 tokes, time 2 min 58 sec, outoput 243 tokens. 
