@@ -1,4 +1,9 @@
 Use ollama on a rpi5, 8GB
+
+Summary
+gestalt llama3-8b the best, 4 GB, about 3.5 min for a simple question 
+
+
 mistral 7b 05/22/2024	A new version of Mistral 7B that supports function calling
 mistal 7.2B parameters = 4.1 GB on rpi5. quantization level 4.0, family llama
 run locall on rpi5
