@@ -1,0 +1,50 @@
+rpi5 8gb
+local runs of mini LLMs
+
+
+phi:latest              e2fd6321a5fe    1.6 GB
+ollama run phi --verbose
+>>> I have low back pain, what should I do
+ Hello there! Low back pain can be caused by many different factors. It's important to consult with a healthcare professional for a proper diagnosis and treatment plan. In the meantime, try applying 
+heat or cold to the affected area, stretching regularly, and taking over-the-counter pain relievers as needed. You might also consider incorporating gentle exercises into your routine under the 
+guidance of a physical therapist or exercise specialist to help alleviate your back pain.
+
+
+total duration:       25.329153946s
+load duration:        1.606959ms
+prompt eval count:    42 token(s)
+prompt eval duration: 6.411756s
+prompt eval rate:     6.55 tokens/s
+eval count:           91 token(s)
+eval duration:        18.784446s
+eval rate:            4.84 tokens/s
+
+25 seconds, 42 tokens in/91 tokens out
+
+
++++++++++++++++++++++++++++++++++++++++
+orca-mini:3b-q4_0       2dbd9f439647    2.0 GB
+
+
+I have low back pain, what should I do
+ If you have low back pain, it is important to rest and take care of your body. However, there are some things you can do to help alleviate the pain:
+
+1. Rest: Avoid any strenuous activities that could worsen your back pain.
+2. Apply ice: Place a bag of frozen peas or waterproof icepack on the area where you feel the pain. This can help reduce inflammation and pain.
+3. Use heat: Apply a warm, wet towel to the affected area for 15-20 minutes. Heat can also help relax muscles and ease pain.
+4. Take it easy: Limit your activities as much as possible and let your body rest.
+5. Consider medication: If the pain is severe or chronic, consider taking over-the-counter pain relievers like acetaminophen (Tylenol) or ibuprofen (Advil). Be sure to follow the instructions on the 
+label or as directed by a healthcare professional.
+
+It is important to consult with a healthcare professional if your back pain persists or is severe.
+
+total duration:       1m9.383419808s
+load duration:        1.382905ms
+prompt eval count:    50 token(s)
+prompt eval duration: 9.576962s
+prompt eval rate:     5.22 tokens/s
+eval count:           229 token(s)
+eval duration:        59.71546s
+eval rate:            3.83 tokens/s
+
+1 min 9sec, 50 tokens in/229 tokens out
