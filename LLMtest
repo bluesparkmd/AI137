@@ -39,6 +39,9 @@ ollama run mistral --verbose
 >>> I have low back pain, what should I do
  I'm not a doctor, but here are some general suggestions for managing low back pain. If your symptoms persist or worsen, please consult a healthcare professional:
 
+
+
+
 1. Rest and relaxation: Try to get plenty of rest, especially if the pain is severe. Avoid strenuous activities that could aggravate your condition.
 
 2. Heat and cold therapy: Apply heat (such as a heating pad or warm bath) or cold (ice packs) to the affected area for 15-20 minutes at a time, several times a day, to help relieve pain and reduce 
@@ -105,3 +108,127 @@ eval rate:            2.00 tokens/s
 
 Another run after clear context
 prompt 14 tokes, time 2 min 58 sec, outoput 243 tokens. 
+
+Run again: not verbose mode
+
+ollama run mistral
+>>> I have low back pain, what should I do
+ I'm not a doctor, but here are some general suggestions for managing low back pain:
+
+1. Rest: Try to avoid activities that make your back pain worse. This doesn't mean complete bed rest, as this can actually worsen the problem in many cases.
+
+2. Ice or heat: Apply ice or heat to the affected area for 15-20 minutes at a time, several times a day. Use ice packs wrapped in a cloth for the first 48 hours, and then switch to heat thereafter.
+
+3. Over-the-counter pain relievers: Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen or naproxen can help reduce pain and inflammation. Always follow the instructions on the label.
+
+4. Exercise: Low-impact exercises, such as walking, swimming, or yoga, can help relieve back pain by improving flexibility and strength.
+
+5. Good posture: Maintaining good posture during activities and while sitting can help prevent back strain.
+
+6. Stretching: Regularly stretch your hamstrings, lower back muscles, and hips to keep them flexible and reduce strain on the lower back.
+
+7. Ergonomic adjustments: If you work at a desk or spend long hours in front of a computer, make sure your workspace is set up ergonomically to reduce strain on your back. This includes having your 
+chair adjusted so that your feet are flat on the floor and your computer monitor at eye level.
+
+8. Maintain a healthy weight: Extra weight can put additional strain on your back, making it more prone to injury and pain. Losing excess weight if necessary can help reduce this strain.
+
+9. Supportive footwear: Wear shoes with good arch support and cushioning to help prevent back pain caused by poor foot mechanics.
+
+10. Stress management: High levels of stress can contribute to muscle tension and back pain, so it's important to find ways to manage your stress effectively. This might include practices such as deep 
+breathing exercises, meditation, or yoga.
+
+If your back pain persists or worsens, or if you experience numbness, weakness, or loss of bladder or bowel control, seek medical attention immediately.
+ 
+
+Conclusion: each time response is different. Response is reasonable in each case. 
+
+
+*******************************************************************************
+
+llama3:8b               365c0bd3c000    4.7 GB
+8b parameters, 4.7 GB
+
+I have low back pain, what should I do
+Sorry to hear that you're experiencing low back pain! There are many possible causes of low back pain, and it's always best to consult with a healthcare professional for an accurate diagnosis and 
+personalized advice. That being said, here are some general tips that may help alleviate your discomfort:
+
+1. **Stretch and move**: Gentle stretching exercises can help relieve tension in the muscles and joints of your lower back. Try these simple stretches:
+        * Pelvic tilt: Lie on your back with knees bent and feet flat on the floor. Tilt your pelvis upwards and then back down again, repeating for 10-15 repetitions.
+        * Knee to chest stretch: Bring one knee towards your chest and hold for 30 seconds. Switch sides.
+        * Cat-cow stretch: Start on your hands and knees. Arch your back like a cat, looking up towards the ceiling, then round your back like a cow, tucking your chin towards your chest.
+2. **Strengthen your core**: Weakness in the muscles of your abdomen (transverse abdominis) can contribute to poor posture and strain on your lower back. Try these exercises:
+        * Plank: Hold a plank position for 30-60 seconds, rest for 30 seconds, and repeat for 3 sets.
+        * Pelvic lift: Lie on your back with knees bent and feet flat on the floor. Slowly lift your pelvis towards the ceiling, squeezing your abdominal muscles as you do so.
+3. **Improve your posture**: Make sure to stand up straight, shoulders relaxed, and maintain good posture throughout the day. Avoid slouching or leaning forward, which can put strain on your lower 
+back.
+4. **Get enough rest**: Fatigue can exacerbate low back pain. Ensure you're getting 7-9 hours of sleep each night and taking regular breaks to stretch and move during the day.
+5. **Try heat or cold therapy**: Applying heat or cold packs to the affected area may help relieve discomfort. Try alternating between a warm bath, shower, or heating pad, and an ice pack or cold 
+compress.
+6. **Practice good lifting techniques**: When lifting heavy objects, use proper technique:
+        * Bend at the knees, keeping your back straight
+        * Keep the object close to your body
+        * Lift with your legs rather than straining your back
+7. **Consider physical therapy or massage**: A physical therapist or massage therapist can help identify and address any underlying muscle imbalances or tightness contributing to your low back pain.
+8. **Manage stress**: Stress can exacerbate low back pain. Engage in stress-reducing activities like yoga, meditation, or deep breathing exercises.
+
+Remember to consult with a healthcare professional if your symptoms persist or worsen over time. They may recommend further treatment, such as physical therapy, medication, or even surgery, depending 
+on the underlying cause of your low back pain.
+
+Do any of these tips resonate with you? Have you tried anything else that has helped alleviate your low back pain?
+
+total duration:       5m38.829011925s
+load duration:        6.877258ms
+prompt eval count:    20 token(s)
+prompt eval duration: 8.313777s
+prompt eval rate:     2.41 tokens/s
+eval count:           614 token(s)
+eval duration:        5m30.371262s
+eval rate:            1.86 tokens/s
+
+5min38s, 20 token in / 614 token out
+
+
+>> I have low back pain, what should I do
+Sorry to hear that you're experiencing low back pain! There are many potential causes of low back pain, and it's always best to consult with a healthcare professional for an accurate diagnosis. That 
+being said, here are some general steps you can take to help alleviate your symptoms:
+
+1. **Stretch and strengthen**: Engage in exercises that stretch and strengthen the muscles in your lower back, glutes, and hamstrings. This can include:
+        * Pelvic tilts: Lie on your back with knees bent and feet flat on the floor. Tilt your pelvis upwards and then back down again, repeating for 10-15 reps.
+        * Knee to chest stretches: Bring one knee towards your chest and hold for 30 seconds. Switch sides.
+        * Glute bridges: Lie on your back with knees bent and feet flat on the floor. Slowly lift your hips up towards the ceiling, squeezing your glutes as you lift.
+2. **Improve posture**: Make sure to maintain good posture when sitting, standing, or sleeping. This can help reduce strain on your lower back muscles.
+3. **Get enough rest**: Get plenty of rest and avoid overexertion. Take regular breaks if you have a desk job or are engaging in physical activity.
+4. **Maintain proper lifting techniques**: When lifting heavy objects, use proper lifting techniques to avoid straining your back:
+        * Bend at the knees, not the waist
+        * Keep the object close to your body
+        * Lift with your legs, not your back
+5. **Try heat or cold therapy**: Apply heat or cold packs to the affected area to help reduce pain and inflammation.
+6. **Consider physical therapy**: A physical therapist can help you develop a personalized exercise program to improve your posture, strengthen your core, and alleviate low back pain.
+7. **Manage stress**: Stress can exacerbate low back pain. Practice stress-reducing techniques like meditation, deep breathing, or yoga.
+8. **Get enough sleep**: Aim for 7-9 hours of sleep per night to help reduce morning stiffness and discomfort.
+9. **Consider over-the-counter pain relievers**: If your pain is mild, you can try taking an over-the-counter pain reliever like acetaminophen (Tylenol) or ibuprofen (Advil).
+10. **Seek medical attention if necessary**: If your pain persists, worsens, or is accompanied by other symptoms like numbness, tingling, or weakness in your legs, seek medical attention.
+
+Some potential underlying causes of low back pain include:
+
+* Muscle strain
+* Poor posture
+* Herniated disk
+* Spinal stenosis
+* Spondylolisthesis
+* Osteoporosis
+* Kidney stones
+* Piriformis syndrome
+
+Remember to consult with a healthcare professional for an accurate diagnosis and personalized guidance. They can help you determine the underlying cause of your low back pain and develop a treatment 
+plan that's right for you.
+
+total duration:       5m27.787260773s
+load duration:        4.202718ms
+prompt eval duration: 592.664ms
+prompt eval rate:     0.00 tokens/s
+eval count:           607 token(s)
+eval duration:        5m27.06014s
+eval rate:            1.86 tokens/s
+
+5min27sec/
