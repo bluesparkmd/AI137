@@ -232,3 +232,70 @@ eval duration:        5m27.06014s
 eval rate:            1.86 tokens/s
 
 5min27sec/
+
+==================================================
+
+ollama run gemma --verbose
+>>> I have low back pain, what should I do
+**1. Seek Medical Attention:**
+
+- Consult with a healthcare provider to determine the severity and underlying cause of your back pain.
+- They can provide a diagnosis, treatment plan, and recommendations for further management.
+
+
+**2. Gentle Exercises:**
+
+- Perform low-impact exercises such as walking, swimming, or cycling.
+- Avoid strenuous activities that aggravate your back pain.
+
+
+**3. Heat and Ice Therapy:**
+
+- Apply heat packs or ice packs to the affected area for 20 minutes at a time.
+- Heat can relieve stiffness and pain, while ice can reduce inflammation.
+
+
+**4. Posture Correction:**
+
+- Maintain good posture while sitting, standing, and working.
+- Use ergonomic chairs, desks, and computer setups to reduce back strain.
+
+
+**5. Stretching:**
+
+- Perform gentle stretches for your back, neck, and shoulders.
+- Focus on stretches that improve your posture and flexibility.
+
+
+**6. Relaxation Techniques:**
+
+- Practice relaxation techniques such as deep breathing, meditation, or yoga.
+- Reducing stress and tension can help alleviate back pain.
+
+
+**7. Over-the-Counter Medications:**
+
+- If necessary, take over-the-counter medications like ibuprofen or acetaminophen to relieve pain.
+- Follow the recommended dosage and consult with a healthcare professional if you have any underlying health conditions.
+
+
+**8. Physical Therapy:**
+
+- Consult with a physical therapist who can design a personalized rehabilitation program for your back pain.
+- This can include targeted exercises, manual therapy, and education on back care.
+
+total duration:       3m39.041289064s
+load duration:        1.906799ms
+prompt eval count:    37 token(s)
+prompt eval duration: 16.914451s
+prompt eval rate:     2.19 tokens/s
+eval count:           320 token(s)
+eval duration:        3m21.991603s
+eval rate:            1.58 tokens/s
+>>> 
+
+3min39sec, 37 token in/320 token out
+
+Best so far-llama7b
+
+
