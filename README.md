@@ -1,4 +1,4 @@
-# AIMED137
+## AIMED137
 Just some thoughs on AI and Medicine. 
 137 is the 1/fine structure constant. 
 What is it - just a mystery. I like to think of 137 as the ratio of photon energies and electrostatic energies. 
