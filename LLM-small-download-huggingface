@@ -1,0 +1,17 @@
+In lab/lmtest dowloaded models from hugging face
+q4_0-orca-mini-3b.gguf, 2 GB
+mistral-7b-instruct-v0.1.Q3_K_M.gguf, 3.5 GB
+Lexi-Llama-3-8B-Uncensored_Q4_K_M.gguf 4.9 GB
+
+Easiest way to download model, go to huggingface, find gguf model, find download link and get it on the mac dowload files.
+then just slide file over to rpi5 via vscode. 
+
+Since the pi5 is still slow with larger models, tend to like orca mini 3b for testing. 
+Use run.py to test out the various models
+Did try a bunch of times to use MODEL_INIT to set up a system prompt but never really seems to take, not sure why??
+
+Good page on ARM on how to run LLMs on RPI5. 
+https://learn.arm.com/learning-paths/embedded-systems/llama-python-cpu/llama-python-chatbot/
+
+And of course can also look at files from cs229
+https://github.com/bluesparkmd/stanford-cs-229-machine-learning
